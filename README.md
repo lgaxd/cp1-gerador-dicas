@@ -46,18 +46,6 @@ O aplicativo foi desenvolvido respeitando o mock proposto, com:
 
 ---
 
-## 📂 Estrutura do Projeto
-
-```
-/gerador-dicas
- ├── App.tsx
- ├── package.json
- ├── tsconfig.json
- └── assets/
-```
-
----
-
 ## 📊 Critérios Atendidos
 
 * ✔ Exibição de dicas aleatórias
