@@ -1,50 +1,68 @@
-# Welcome to your Expo app 👋
+# 📱 Gerador de Dicas
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 📌 Sobre o Projeto
 
-## Get started
+Este projeto consiste em um aplicativo mobile desenvolvido com **React Native (Expo)** que gera dicas aleatórias para o usuário.
 
-1. Install dependencies
+A proposta do app é simples: exibir uma dica ao abrir e permitir que o usuário gere novas dicas ao clicar em um botão.
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 🎓 Contexto Acadêmico
 
-   ```bash
-   npx expo start
-   ```
+* **Disciplina:** Mobile Application Development
+* **Turma:** 2TDSPX
+* **Checkpoint:** 1
+* **Aluno:** Lucas Grillo Alcântara
+* **RM:** 561414
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🚀 Funcionalidades
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+* Exibição de uma dica aleatória ao iniciar o aplicativo
+* Geração de novas dicas ao clicar no botão **"Nova dica"**
+* Interface simples e intuitiva, seguindo o layout proposto
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 🛠️ Tecnologias Utilizadas
 
-```bash
-npm run reset-project
+* React Native
+* Expo
+* TypeScript
+* @expo/vector-icons
+
+---
+
+## 🎨 Layout
+
+O aplicativo foi desenvolvido respeitando o mock proposto, com:
+
+* Card centralizado para exibição da dica
+* Ícone de lâmpada representando ideias/dicas
+* Botão estilizado para gerar novas dicas
+* Paleta de cores suave e moderna
+
+---
+
+## 📂 Estrutura do Projeto
+
+```
+/gerador-dicas
+ ├── App.tsx
+ ├── package.json
+ ├── tsconfig.json
+ └── assets/
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 📊 Critérios Atendidos
 
-To learn more about developing your project with Expo, look at the following resources:
+* ✔ Exibição de dicas aleatórias
+* ✔ Atualização da dica via botão
+* ✔ Coerência visual (cores, espaçamento e layout)
+* ✔ Organização básica do código
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
